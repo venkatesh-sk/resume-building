@@ -1,0 +1,223 @@
+resume building
+html and css
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+<style>
+        body{
+            width: 100%;
+            height: 1000px;
+            
+          
+        }
+    #bg{position: relative;
+        height: 200px;
+        background-color: dimgrey;
+    }
+    img{
+        position:relative;
+        border-radius: 75%;
+        border:2px solid orange;
+        border-style: dotted;
+        border-inline-start-style: dotted;
+        margin-left: 550px;
+    }
+    #brain{
+         
+        display: inline;
+        margin-top: -20%;
+        position: relative;
+        margin-left: -250px;
+        background-color: orange;
+        text-align: center;
+
+    }
+    hr{
+        margin-top: -25px;
+        border:8px solid white;
+    }
+.split {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+ 
+  top:300px;
+  
+  padding-top: 20px;
+}
+.centered{
+
+    width: 500px;
+    padding: 10px 10px 10px 30px;
+}
+    .left{
+        left: 0;
+        padding-left: 0px;
+        margin-left: 100px;
+    }
+    .right{
+        text-align: justify;
+        margin-right: 40px;
+        padding-left: -20pxpx;
+        right:-30px;
+        border-left: 1px solid black;
+        height: 1000px;
+        }
+.line{
+    width: 100%;
+    height: 2px solid black;
+}    
+#js{
+    width:10px;
+    height: 2px;
+    right: 50px;
+}
+li #js {
+    position: relative;
+    left:  180px;
+    bottom:10px;
+    width: 300px;
+    height:5px;
+    background-image:linear-gradient(to right,orange,white);
+    border-radius: 25px;
+
+}
+.content{
+    width: 400px;
+}
+.cir{
+    position: relative;
+    width: 10px;
+    height:15px;
+    background-color: white;
+    border: 1px solid grey;
+    left:100px;
+    border-radius: 50%;
+    bottom:5px;
+}
+h4{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div id="bg">
+        
+        <img id="profilepic" src="pic.jpg" width=260px height=140px alt="Rashmika">
+        <h1 id="brain">BRAIN DUDEY</h1>
+    <hr>
+
+    </div>
+    <h5 style="text-align:center">N.Damen Avenue,Chicago 99999|999-999-9999|hello@kickresume.com|www.kickresume.com</h5>
+    <hr>
+
+    <div class='line'></div>
+ <div class="split left">
+       <div class="centered">
+        <div class="content">
+
+            <h1 id="profile"> <i class="fas fa-user-alt"></i>Profile</h1>
+            <p class="profile"> Innovative optimized solution seeker.Excited to be at the deployment phase of my new career as a web  developer. i am ambitious, adventurous, assiduous, animated and an a literation advocate</p>
+            
+            <h1>Skills</h1>
+            <p class="skills">
+                <h4>Technical Skills</h4>
+                <li>JavasSCript <div id="js"><div class="cir"></div></div></li>
+                <li>CSS<div id="js"><div class="cir"></div></div></li>
+                <li>HTML<div id="js"><div class="cir"></div></div></li>
+                <li>React<div id="js"><div class="cir"></div></div></li>
+                
+                <li>Redux<div id="js"><div class="cir"></div></div></li>
+                <li>Mongo<div id="js"><div class="cir"></div></div></li>
+                <li>Deployment<div id="js"><div class="cir"></div></div></li>
+            <br>
+                <h4 class='skills'>Addiional skills</h4>
+                <li>Project Mangement<div id="js"><div class="cir"></div></div></li>
+                <li>Recruitment<div id="js"><div class="cir"></div></div></li>
+                <li>Business Development<div id="js"><div class="cir"></div></div></li>
+                <li>Editing<div id="js"><div class="cir"></div></div></li>
+                <li>Fundrising<div id="js"><div class="cir"></div></div></li>
+            </p>
+            <h1>Work Exprience</h1>
+             Event Manager      03/2014-02/2017 <br>
+                C3 Presents,Washington DOCTYPE
+                <ul>
+                    <li>Lead and execute all phase of event planning <br>
+                         and production spanning committe <br> recreuitment,training,vendor realtionships and<br>
+                         on-site facilitation
+                        </li>
+                        <li>Brought new business to the organisation <bt>
+                            through <br> relentless networking and stewardship <br>
+                            which helped the company win the bid for the <br>
+                            State Department Summit on the Middle East <br>
+                            and, the companies largest civic event to date,<br>
+                            the United State of Women</li>
+                        <li>Exercise fiscal control over budget creation,tracking <br> and reporting Collaborate with
+                            employees at all <br> organizational levels to advance cohesive operation.
+                        </li>
+                </ul>
+        
+        </div>
+       </div>
+   </div>
+   <div class="split right">
+       <div class='centered'>
+        <div class="content"><div>
+            <h1>Work Exprience</h1>
+            <h3>Community Realtions Manager     06/2011-01/2014</div> <br>
+            Gay & Lesbian Elder Housing, Los Angles
+            <ul>
+                <li>Arranging presentation and pitch deck</li>
+                <li>Desinging a PR plan and establishing important focus points</li>
+               
+                <li>Designing, creating and managing content across multiple communication platforms </li>
+                <li>Building relationship with key media players.</li>
+        
+            </ul> 
+            <h1>Education</h1>
+            Engineering Immersion           11/2018-06/2018
+            program
+            Thinkful, Chicago,IL
+
+            Project-focused intensive program wuth emphasis on Mongo, Express,React and JavaSCript(MERN) technical stack.
+            <ul>
+                <li>Developed a full-stack web application"RenewU", using React that allows users to explore various aspects of meditation, User's 
+                    User's progrss is stored on a backend created using Node and MongoDB</li>
+                <li>Developed a language learn app, 'Foodie Phonetics' using spaced repetition and a linked list data structure.
+                     React was used to create the front end components
+                    whilte Node and Mongo were used to create a backend that stores uses data
+                 </li>
+                 <li>Developed a concierge app, 'Play', for individuals looking for curated suggestions when visiting a new place.
+                     React was used to develop the front end which includes realtime
+                    chat,drag and drop and variety of advanced features, The 
+                backend, built using Node,Express,MongoDB, takes the advantage of well developed RESTful API,Geopspatial searching and user authentication with JWT.</li>
+           </ul>
+           <h1>BA, English                09/2001-09/2005</h1>
+           University of California, Los Angles.
+        </div>
+        
+       </div>
+   </div>
+
+
+
+
+    
+
+
+    
+  
+ 
+    
+</body>
+</html>
